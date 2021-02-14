@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+body {
+    background: url("../img/owl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-area-1 {
+    position: absolute;
+    width: 620px;
+    box-shadow: 0px 0px 10px 0px   #b192b894;
+    display: none;
+    .login-area-2 {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 620px;
+        background: rgba(156, 72, 177, 0.85);
+        mix-blend-mode: hue;
+    }
+
+    .login-area {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 620px;
+        align-items: center;
+        z-index: 1010;
+
+        img {
+            margin-top: 152px;
+            height: 107px;
+            width: 107px;
+            z-index: 1010;
+            margin-bottom: 32px;
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 48px;
+            color: rgba(216, 178, 81, 0.84);
+            align-items: center;
+            justify-content: center;
+            z-index: 1010;
+            margin-bottom: 32px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                height: 4rem;
+                width: 20rem;
+                margin-bottom: 3.2rem;
+                background-color: #e3e3e3;
+                text-align: center;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 0.2rem;
+                border-radius: 0.9rem;
+                outline: none;
+                border: 1px solid blueviolet;
+                z-index: 1010;
+                //padding: 12px;
+            }
+        }
+        button {
+            height: 5rem;
+            width: 12rem;
+            text-align: center;
+            font-weight: 600;
+            font-size: 32px;
+            border-radius: 0.9rem;
+            outline: none;
+            border: none;
+            text-transform: uppercase;
+            padding: 1rem;
+            cursor: pointer;
+            z-index: 1010;
+            color: #fff8dcaf;
+            background: linear-gradient(to right, rgba(205, 72, 245, 0.185) 50%, #00000000 50%);
+            background-size: 200% 100%;
+            background-position: left bottom;
+            transition: all 500ms ease-in;
+            &:hover {
+                
+                background-position: right bottom;
+            }
+        }
+    }
+}
+
+.getting-started{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    h3{
+        color: #ca1136;
+        font-size: 50px;
+        letter-spacing: 1rem;
+        margin-bottom: 32px;
+        top: 350px;
+    }
+    button {
+        height: 5rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: 32px;
+        border-radius: 0.9rem;
+        outline: none;
+        border: none;
+        text-transform: uppercase;
+        padding: 1rem;
+        cursor: pointer;
+        z-index: 1010;
+        color: #fff8dcaf;
+        background: linear-gradient(to right, rgba(205, 72, 245, 0.185) 50%, #00000000 50%);
+        background-size: 200% 100%;
+        background-position: left bottom;
+        transition: all 500ms ease-in;
+        &:hover {
+           
+            background-position: right bottom;
+        }
+    }
+}
+
+.box-parent{
+    display: grid;
+    float: right;
+
+    .box{
+        display: flex;
+        position: relative;
+        top: -150px;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        background-color: #4d008565;
+        cursor: pointer;
+        right: 100px;
+        border-radius: 15%;
+        color:  #fff8dcaf;
+        font-weight: 700;
+        font-size: 55px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+  
+}

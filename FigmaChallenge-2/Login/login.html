@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login-area-1">
+
+        <div class="login-area-2">
+        </div>
+        <div class="login-area">
+            <img src="./img/logo.png" alt="1">
+            <h3>LOGIN</h3>
+            <form action="login">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+            </form>
+            <button type="submit">Login</button>
+        </div>
+    </div>
+    <div class="getting-started">
+        <h3>Welcome Here...</h3>
+        <button class="btn">Owl look</button>
+    </div>
+    <div class="box-parent">
+        <div class="box">O</div>
+        <div class="box">W</div>
+        <div class="box">L</div>
+    </div>
+    <script>
+        $(".btn").click(function () {
+
+            $(".login-area-1").animate({
+                width: 'toggle'
+            }, 1200);
+
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"></script>
+    <script src="js/anime.js"></script>
+</body>
+
+</html>
